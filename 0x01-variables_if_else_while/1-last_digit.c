@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *Main - Variable n will store a different value everytime program runs
- *Return (0).
+ * main - Entry Point
+ * Return: Always return 0 (Success)
  */
 int main(void)
 {
