@@ -2,19 +2,19 @@
 
 /**
 *_memcpy - a function that copies memory are
-*@dest: memory where is stored
-*@src: memory where is copied
+*@dest: memory where its stored
+*@src: memory from which its copied
 *@n: number of bytes
 *Return: copied memory with n byted changed
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int r = 0;
+	int q = 0;
 	int i = n;
 
-	for (; r < i; r++)
+	for (; q < i; q++)
 	{
-		dest[r] = src[r];
+		dest[q] = src[q];
 
 	n--;
 	}
