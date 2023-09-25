@@ -1,4 +1,5 @@
 #!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -c *.c
+#Insert file Description
+#File created by root
+gcc -c *.c
 ar -rc liball.a *.o
-ranlib liball .a
