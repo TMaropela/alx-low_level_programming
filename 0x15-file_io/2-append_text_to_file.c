@@ -5,7 +5,7 @@
  * @filename: pointer to our file-name.
  * @text_content: string to added to the end of our file.
  *
- * Return: (-1) On failure 
+ * Return: (-1) On failure
  * Or filename is NULL.
  * If file is non-existent the user needs write permissions - (-1).
  * Otherwise ret. 1.
